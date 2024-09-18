@@ -8,7 +8,7 @@
             {
                 ApplicationArea = All;
                 Caption = 'Price Status';
-                Editable = true; // Make it non-editable
+                Editable = true;
             }
         }
     }
