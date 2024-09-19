@@ -5,7 +5,7 @@
         
         field(50100; "Price Status"; Text[30])
         {
-            Caption = 'Price Status';
+            Caption = 'Price Status Test';
             Editable = true;
         }
     }

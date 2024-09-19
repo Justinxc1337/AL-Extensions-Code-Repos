@@ -4,10 +4,10 @@
     {
         addfirst(InventoryGrp)
         {
-            field("Price Status"; Rec."Price Status")
+            field("Price Status"; Rec."Price Status Test")
             {
                 ApplicationArea = All;
-                Caption = 'Price Status';
+                Caption = 'Price Status Test';
                 Editable = true;
             }
         }
