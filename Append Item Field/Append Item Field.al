@@ -1,9 +1,9 @@
-﻿tableextension 50100 "Item Extension" extends Item
+﻿tableextension 50102 "Item Extension" extends Item
 {
     fields
     {
         
-        field(50100; "Price Status"; Text[30])
+        field(50102; "Price Status Test"; Text[30])
         {
             Caption = 'Price Status Test';
             Editable = true;
