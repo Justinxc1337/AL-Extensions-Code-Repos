@@ -1,0 +1,32 @@
+{
+  "id": "1e9ffaf2-4f55-4fa7-8a20-81ede0b60c10",
+  "name": "Add Items Unit Price Color",
+  "publisher": "Justin Chardonnay SSIT",
+  "version": "1.0.0.0",
+  "brief": "Unit Price Color",
+  "description": "Changes the color depending on the unit price",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
