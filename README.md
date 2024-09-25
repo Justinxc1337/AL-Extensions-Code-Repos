@@ -13,7 +13,11 @@
 * "brief": "XXX",
 * "description": "XXX",
 * logo": "logo.png",
-* "allowDownloadingSource": false, (Nobody allowed to download my publicly published code from Business Central)
+* "resourceExposurePolicy": { <br>
+    "allowDebugging": false, <br>
+    "allowDownloadingSource": false, <br>
+    "includeSourceInSymbolFile": false <br>
+  },
 
 ## Commands used
 * AL: Go!
