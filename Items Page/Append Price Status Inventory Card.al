@@ -13,3 +13,19 @@
         }
     }
 }
+
+pageextension 50103 "Item PDT Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(InventoryGrp)
+        {
+            field("Price Date Test"; Rec."Price Date Test")
+            {
+                ApplicationArea = All;
+                Caption = 'Price Date Test';
+                Editable = true;
+            }
+        }
+    }
+}

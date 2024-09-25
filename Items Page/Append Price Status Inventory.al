@@ -10,3 +10,16 @@
         }
     }
 }
+
+tableextension 50103 "Item PDT Extension" extends Item
+{
+    fields
+    {
+
+        field(50103; "Price Date Test"; Date)
+        {
+            Caption = 'Price Date Test';
+            Editable = true;
+        }
+    }
+}

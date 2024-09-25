@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PermissionSets>
-  <PermissionSet RoleID="APPEND ITEM FIELD" RoleName="Append Item Field" />
+  <PermissionSet RoleID="ITEMS PAGE CHANGES" RoleName="Items Page Changes" />
 </PermissionSets>
