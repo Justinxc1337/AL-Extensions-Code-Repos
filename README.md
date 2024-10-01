@@ -5,6 +5,7 @@
 
 ## Important Settings on launch.json:
 * "startupObjectId": 9022, (9022 = frontpage)
+* "schemaUpdateMode": "ForceSync"
 
 ## Important Settings on app.json:
 * "name": "XXX",
