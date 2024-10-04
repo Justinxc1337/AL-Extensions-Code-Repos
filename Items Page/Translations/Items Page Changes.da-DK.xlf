@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="da-DK" original="Items Page Changes">
+    <body>
+      <group id="body">
+        <trans-unit id="PageExtension 3226554048 - Control 1650050144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Barcode</source>
+          <target state="translated">Stregkode</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Barcode Card Extension - Control Barcode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3226554048 - Control 3011597373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Brand</source>
+          <target state="translated">Brand</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Brand Card Extension - Control Brand - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3226554048 - Control 2391601916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Certification</source>
+          <target state="translated">Certificering</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Cert Card Extension - Control Certification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3226554048 - Control 4083707603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Cost Per Item</source>
+          <target state="translated">Kost Per Vare</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item CPI Card Extension - Control Cost Per Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3226554048 - Control 613790498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Width (cm)</source>
+          <target state="translated">Bredde (cm)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Width Card Extension - Control Width - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 901006396 - Field 1650050144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Barcode</source>
+          <target state="translated">Stregkode</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Barcode Extension - Field Barcode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 901006396 - Field 3011597373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Brand</source>
+          <target state="translated">Brand</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Brand Extension - Field Brand - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 901006396 - Field 2391601916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Certification</source>
+          <target state="translated">Certificering</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Cert Extension - Field Certification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 901006396 - Field 4083707603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Cost Per Item</source>
+          <target state="translated">Kost Per Vare</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item CPI Extension - Field Cost Per Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 901006396 - Field 613790498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Width (cm)</source>
+          <target state="translated">Bredde (cm)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Width Extension - Field Width - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
