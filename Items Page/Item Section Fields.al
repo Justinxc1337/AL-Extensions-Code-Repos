@@ -423,79 +423,57 @@ tableextension 50115 "Item Vendor Extension" extends Item
     }
 }
 
-pageextension 50116 "Item Option1 Card Extension" extends "Item Card"
+pageextension 50116 "Item Material Card Extension" extends "Item Card"
 {
     layout
     {
         addfirst(item)
         {
-            field("Option1 Name"; Rec."Option1 Name")
+            field("Material"; Rec."Material")
             {
                 ApplicationArea = All;
-                Caption = 'Option1 Name';
-                Editable = true;
-            }
-            field("Option1 Value"; Rec."Option1 Value")
-            {
-                ApplicationArea = All;
-                Caption = 'Option1 Value';
+                Caption = 'Material';
                 Editable = true;
             }
         }
     }
 }
 
-tableextension 50116 "Item Option1 Extension" extends Item
+tableextension 50116 "Item Material Extension" extends Item
 {
     fields
     {
-        field(50116; "Option1 Name"; Text[50])
+        field(50116; "Material"; Text[100])
         {
-            Caption = 'Option1 Name';
-            Editable = true;
-        }
-        field(50117; "Option1 Value"; Text[50])
-        {
-            Caption = 'Option1 Value';
+            Caption = 'Material';
             Editable = true;
         }
     }
 }
 
-pageextension 50117 "Item Option2 Card Extension" extends "Item Card"
+pageextension 50117 "Item Delivery D Card Extension" extends "Item Card"
 {
     layout
     {
         addfirst(item)
         {
-            field("Option2 Name"; Rec."Option2 Name")
+            field("Delivery D"; Rec."Delivery D")
             {
                 ApplicationArea = All;
-                Caption = 'Option2 Name';
-                Editable = true;
-            }
-            field("Option2 Value"; Rec."Option2 Value")
-            {
-                ApplicationArea = All;
-                Caption = 'Option2 Value';
+                Caption = 'Leveringstid';
                 Editable = true;
             }
         }
     }
 }
 
-tableextension 50117 "Item Option2 Extension" extends Item
+tableextension 50117 "Item Delivery D Extension" extends Item
 {
     fields
     {
-        field(50118; "Option2 Name"; Text[50])
+        field(50117; "Delivery D"; Text[50])
         {
-            Caption = 'Option2 Name';
-            Editable = true;
-        }
-        field(50119; "Option2 Value"; Text[50])
-        {
-            Caption = 'Option2 Value';
+            Caption = 'Delivery D';
             Editable = true;
         }
     }
@@ -596,6 +574,230 @@ tableextension 50119 "Item Option1_2 Extension" extends Item
         field(50125; "Option 2 Value"; Text[50])
         {
             Caption = 'Option 2 Value';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50126 "Item Socket Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Socket"; Rec."Socket")
+            {
+                ApplicationArea = All;
+                Caption = 'Socket';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50126 "Item Socket Extension" extends Item
+{
+    fields
+    {
+        field(50126; "Socket"; Text[50])
+        {
+            Caption = 'Socket';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50127 "Item Va Barcode Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Variant Barcode"; Rec."Variant Barcode")
+            {
+                ApplicationArea = All;
+                Caption = 'Variant Barcode';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50127 "Item Va Barcode Extension" extends Item
+{
+    fields
+    {
+        field(50127; "Variant Barcode"; Text[30])
+        {
+            Caption = 'Variant Barcode';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50128 "Item VCAPDKK Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Variant Compare At Price DKK"; Rec."Variant Compare At Price DKK")
+            {
+                ApplicationArea = All;
+                Caption = 'Variant Compare At Price DKK';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50128 "Item VCAPDKK Extension" extends Item
+{
+    fields
+    {
+        field(50128; "Variant Compare At Price DKK"; Decimal)
+        {
+            Caption = 'Variant Compare At Price DKK';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50129 "Item Tags Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Tags"; Rec."Tags")
+            {
+                ApplicationArea = All;
+                Caption = 'Tags';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50129 "Item Tags Extension" extends Item
+{
+    fields
+    {
+        field(50129; "Tags"; Text[50])
+        {
+            Caption = 'Tags';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50130 "Item Shopify S Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Shopify Status"; Rec."Shopify Status")
+            {
+                ApplicationArea = All;
+                Caption = 'Shopify Status';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50130 "Item Shopify S Extension" extends Item
+{
+    fields
+    {
+        field(50130; "Shopify Status"; Text[15])
+        {
+            Caption = 'Shopify Status';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50131 "Item Published Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Published"; Rec."Published")
+            {
+                ApplicationArea = All;
+                Caption = 'Published';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50131 "Item Published Extension" extends Item
+{
+    fields
+    {
+        field(50131; "Published"; Text[10])
+        {
+            Caption = 'Published';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50132 "Item Product T Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Product Type"; Rec."Product Type")
+            {
+                ApplicationArea = All;
+                Caption = 'Product Type';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50132 "Item Product T Extension" extends Item
+{
+    fields
+    {
+        field(50132; "Product Type"; Text[100])
+        {
+            Caption = 'Product Type';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50133 "Item Price DKK Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Price DKK"; Rec."Price DKK")
+            {
+                ApplicationArea = All;
+                Caption = 'Price DKK';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50133 "Item Price DKK Extension" extends Item
+{
+    fields
+    {
+        field(50133; "Price DKK"; Decimal)
+        {
+            Caption = 'Price DKK';
             Editable = true;
         }
     }
