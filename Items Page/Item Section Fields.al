@@ -802,3 +802,311 @@ tableextension 50133 "Item Price DKK Extension" extends Item
         }
     }
 }
+
+pageextension 50134 "Item Ext Leaves Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Extension leaves"; Rec."Extension leaves")
+            {
+                ApplicationArea = All;
+                Caption = 'Extension leaves';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50134 "Item Ext Leaves Extension" extends Item
+{
+    fields
+    {
+        field(50134; "Extension leaves"; Text[50])
+        {
+            Caption = 'Extension leaves';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50135 "Item DynItemNum Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Dynamics item number"; Rec."Dynamics item number")
+            {
+                ApplicationArea = All;
+                Caption = 'Dynamics item number';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50135 "Item DynItemNum Extension" extends Item
+{
+    fields
+    {
+        field(50135; "Dynamics item number"; Text[50])
+        {
+            Caption = 'Dynamics item number';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50136 "Item Functions Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Functions"; Rec."Functions")
+            {
+                ApplicationArea = All;
+                Caption = 'Functions';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50136 "Item Functions Extension" extends Item
+{
+    fields
+    {
+        field(50136; "Functions"; Text[100])
+        {
+            Caption = 'Functions';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50137 "Item Shopify H Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("shopify_handle"; Rec."shopify_handle")
+            {
+                ApplicationArea = All;
+                Caption = 'Shopify Handle';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50137 "Item Shopify H Extension" extends Item
+{
+    fields
+    {
+        field(50137; "shopify_handle"; Text[500])
+        {
+            Caption = 'Shopify Handle';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50138 "Item Delivery Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Delivery"; Rec."Delivery")
+            {
+                ApplicationArea = All;
+                Caption = 'Delivery';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50138 "Item Delivery Extension" extends Item
+{
+    fields
+    {
+        field(50138; "Delivery"; Text[100])
+        {
+            Caption = 'Delivery';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50139 "Item Pub Scope Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Published scope"; Rec."Published scope")
+            {
+                ApplicationArea = All;
+                Caption = 'Published scope';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50139 "Item Pub Scope Extension" extends Item
+{
+    fields
+    {
+        field(50139; "Published scope"; Text[20])
+        {
+            Caption = 'Published scope';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50140 "Item Pack D Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Packaging depth (cm)"; Rec."Packaging depth (cm)")
+            {
+                ApplicationArea = All;
+                Caption = 'Packaging depth (cm)';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50140 "Item Pack D Extension" extends Item
+{
+    fields
+    {
+        field(50140; "Packaging depth (cm)"; Decimal)
+        {
+            Caption = 'Packaging depth (cm)';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50141 "Item Pack H Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Packaging height (cm)"; Rec."Packaging height (cm)")
+            {
+                ApplicationArea = All;
+                Caption = 'Packaging height (cm)';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50141 "Item Pack H Extension" extends Item
+{
+    fields
+    {
+        field(50141; "Packaging height (cm)"; Decimal)
+        {
+            Caption = 'Packaging height (cm)';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50142 "Item Pack L Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Packaging length (cm)"; Rec."Packaging length (cm)")
+            {
+                ApplicationArea = All;
+                Caption = 'Packaging length (cm)';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50142 "Item Pack L Extension" extends Item
+{
+    fields
+    {
+        field(50142; "Packaging length (cm)"; Decimal)
+        {
+            Caption = 'Packaging length (cm)';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50143 "Item Pack W Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Packaging weight (cm)"; Rec."Packaging weight (cm)")
+            {
+                ApplicationArea = All;
+                Caption = 'Packaging weight (cm)';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50143 "Item Pack W Extension" extends Item
+{
+    fields
+    {
+        field(50143; "Packaging weight (cm)"; Decimal)
+        {
+            Caption = 'Packaging weight (cm)';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50144 "Item Pack Wi Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Packaging width (cm)"; Rec."Packaging width (cm)")
+            {
+                ApplicationArea = All;
+                Caption = 'Packaging width (cm)';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50144 "Item Pack Wi Extension" extends Item
+{
+    fields
+    {
+        field(50144; "Packaging width (cm)"; Decimal)
+        {
+            Caption = 'Packaging width (cm)';
+            Editable = true;
+        }
+    }
+}
