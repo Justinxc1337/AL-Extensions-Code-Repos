@@ -33,6 +33,13 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item CPI Card Extension - Control Cost Per Item - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3226554048 - Control 674271132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Delivery D</source>
+          <target state="translated">Leveringstid</target>
+          <note from="XLIFF Sync" annotates="general" priority="1">Source text has changed. Please review the translation.</note>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Delivery D Card Extension - Control Delivery D - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3226554048 - Control 814761759 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Depth (cm)</source>
           <target state="translated">Dybde (cm)</target>
@@ -75,17 +82,11 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Length Card Extension - Control Length - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3226554048 - Control 1193406327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
-          <source>Option1 Name</source>
-          <target state="translated">Option1 Navn</target>
+        <trans-unit id="PageExtension 3226554048 - Control 3965678037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Material</source>
+          <target state="translated">Materiale</target>
           <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Option1 Card Extension - Control Option1 Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3226554048 - Control 903103539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
-          <source>Option1 Value</source>
-          <target state="translated">Option1 Værdi</target>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Option1 Card Extension - Control Option1 Value - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Material Card Extension - Control Material - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3226554048 - Control 3905013095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Option 1 Name</source>
@@ -110,18 +111,6 @@
           <target state="translated">Option 2 Værdi</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Option1_2 Card Extension - Control Option 2 Value - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3226554048 - Control 614490826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
-          <source>Option2 Name</source>
-          <target state="translated">Option2 Navn</target>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Option2 Card Extension - Control Option2 Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3226554048 - Control 1160634558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
-          <source>Option2 Value</source>
-          <target state="translated">Option2 Værdi</target>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Option2 Card Extension - Control Option2 Value - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3226554048 - Control 227563289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Option3 Name</source>
@@ -231,6 +220,12 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item CPI Extension - Field Cost Per Item - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 901006396 - Field 674271132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Delivery D</source>
+          <target state="translated">Leveringstid</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Delivery D Extension - Field Delivery D - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 901006396 - Field 814761759 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Depth (cm)</source>
           <target state="translated">Dybde (cm)</target>
@@ -273,17 +268,11 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Length Extension - Field Length - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 901006396 - Field 1193406327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
-          <source>Option1 Name</source>
-          <target state="translated">Option1 Navn</target>
+        <trans-unit id="TableExtension 901006396 - Field 3965678037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Material</source>
+          <target state="translated">Materiale</target>
           <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Option1 Extension - Field Option1 Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 901006396 - Field 903103539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
-          <source>Option1 Value</source>
-          <target state="translated">Option1 Værdi</target>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Option1 Extension - Field Option1 Value - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Material Extension - Field Material - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 901006396 - Field 3905013095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Option 1 Name</source>
@@ -308,18 +297,6 @@
           <target state="translated">Option 2 Værdi</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Option1_2 Extension - Field Option 2 Value - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 901006396 - Field 614490826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
-          <source>Option2 Name</source>
-          <target state="translated">Option2 Navn</target>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Option2 Extension - Field Option2 Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 901006396 - Field 1160634558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
-          <source>Option2 Value</source>
-          <target state="translated">Option2 Værdi</target>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Option2 Extension - Field Option2 Value - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 901006396 - Field 227563289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Option3 Name</source>

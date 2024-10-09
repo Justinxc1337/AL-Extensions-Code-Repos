@@ -457,10 +457,10 @@ pageextension 50117 "Item Delivery D Card Extension" extends "Item Card"
     {
         addfirst(item)
         {
-            field("Delivery D"; Rec."Delivery D")
+            field("Delivery date"; Rec."Delivery date")
             {
                 ApplicationArea = All;
-                Caption = 'Leveringstid';
+                Caption = 'Delivery date';
                 Editable = true;
             }
         }
@@ -471,9 +471,9 @@ tableextension 50117 "Item Delivery D Extension" extends Item
 {
     fields
     {
-        field(50117; "Delivery D"; Text[50])
+        field(50117; "Delivery date"; Text[50])
         {
-            Caption = 'Delivery D';
+            Caption = 'Delivery date';
             Editable = true;
         }
     }
