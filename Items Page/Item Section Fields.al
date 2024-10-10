@@ -943,29 +943,29 @@ tableextension 50138 "Item Delivery Extension" extends Item
     }
 }
 
-pageextension 50139 "Item Pub Scope Card Extension" extends "Item Card"
+pageextension 50139 "Item Body HTML Card Extension" extends "Item Card"
 {
     layout
     {
         addfirst(item)
         {
-            field("Published scope"; Rec."Published scope")
+            field("Body (HTML)"; Rec."Body (HTML)")
             {
                 ApplicationArea = All;
-                Caption = 'Published scope';
+                Caption = 'Body (HTML)';
                 Editable = true;
             }
         }
     }
 }
 
-tableextension 50139 "Item Pub Scope Extension" extends Item
+tableextension 50139 "Item Body HTML Extension" extends Item
 {
     fields
     {
-        field(50139; "Published scope"; Text[20])
+        field(50139; "Body (HTML)"; Text[20])
         {
-            Caption = 'Published scope';
+            Caption = 'Body (HTML)';
             Editable = true;
         }
     }
