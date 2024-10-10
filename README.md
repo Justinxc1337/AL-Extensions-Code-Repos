@@ -1,5 +1,5 @@
-# AL Language made for Business Central
-## Personally Crafted Extensions for Companies
+# ERP AL Language made for Business Central
+## Personally Crafted ERP Extensions for Companies
 
 
 
@@ -42,7 +42,7 @@ Syncronize the translations from main to other translations <br>
 
 
 ## ID's Linked To
-- 50100 - Add Items Unit Price Color - Add Unit Price Color Card.al
+- 50100 - empty
 - 50101 - Items Page - Item Section Fields.al - Barcode
 - 50102 - Items Page - Item Section Fields.al - Width (cm)
 - 50103 - Items Page - Item Section Fields.al - Brand
