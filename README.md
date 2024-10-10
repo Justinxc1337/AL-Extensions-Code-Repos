@@ -76,3 +76,14 @@ Syncronize the translations from main to other translations <br>
 - 50131 - Items Page - Item Section Fields.al - Published
 - 50132 - Items Page - Item Section Fields.al - Product Type
 - 50133 - Items Page - Item Section Fields.al - Price DKK
+- 50134 - Items Page - Item Section Fields.al - Extension leaves
+- 50135 - Items Page - Item Section Fields.al - Dynamics item number
+- 50136 - Items Page - Item Section Fields.al - Functions
+- 50137 - Items Page - Item Section Fields.al - Shopify Handle
+- 50138 - Items Page - Item Section Fields.al - Delivery
+- 50139 - Items Page - Item Section Fields.al - Body (HTML)
+- 50140 - Items Page - Item Section Fields.al - Packaging depth (cm)
+- 50141 - Items Page - Item Section Fields.al - Packaging height (cm)
+- 50142 - Items Page - Item Section Fields.al - Packaging length (cm)
+- 50143 - Items Page - Item Section Fields.al - Packaging weight (cm)
+- 50144 - Items Page - Item Section Fields.al - Packaging width (cm)
