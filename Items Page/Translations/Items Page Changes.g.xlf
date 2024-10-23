@@ -143,10 +143,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Pack L Card Extension - Control Packaging length (cm) - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3226554048 - Control 2156432844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
-          <source>Packaging weight (cm)</source>
+        <trans-unit id="PageExtension 3226554048 - Control 3724451934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Packaging weight (kg)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Pack W Card Extension - Control Packaging weight (cm) - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Pack W Card Extension - Control Packaging weight (kg) - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3226554048 - Control 1178075874 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Packaging width (cm)</source>
@@ -353,10 +353,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Pack L Extension - Field Packaging length (cm) - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 901006396 - Field 2156432844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
-          <source>Packaging weight (cm)</source>
+        <trans-unit id="TableExtension 901006396 - Field 3724451934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Packaging weight (kg)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Pack W Extension - Field Packaging weight (cm) - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Pack W Extension - Field Packaging weight (kg) - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 901006396 - Field 1178075874 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Packaging width (cm)</source>

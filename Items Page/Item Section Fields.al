@@ -1061,10 +1061,10 @@ pageextension 50143 "Item Pack W Card Extension" extends "Item Card"
     {
         addfirst(item)
         {
-            field("Packaging weight (cm)"; Rec."Packaging weight (cm)")
+            field("Packaging weight (kg)"; Rec."Packaging weight (kg)")
             {
                 ApplicationArea = All;
-                Caption = 'Packaging weight (cm)';
+                Caption = 'Packaging weight (kg)';
                 Editable = true;
             }
         }
@@ -1075,9 +1075,9 @@ tableextension 50143 "Item Pack W Extension" extends Item
 {
     fields
     {
-        field(50143; "Packaging weight (cm)"; Decimal)
+        field(50143; "Packaging weight (kg)"; Decimal)
         {
-            Caption = 'Packaging weight (cm)';
+            Caption = 'Packaging weight (kg)';
             Editable = true;
         }
     }
