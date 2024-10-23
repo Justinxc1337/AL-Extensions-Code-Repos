@@ -58,10 +58,10 @@ Syncronize the translations from main to other translations <br>
 - 50113 - Items Page - Item Section Fields.al - Height (cm)
 - 50114 - Items Page - Item Section Fields.al - Weight (kg)
 - 50115 - Items Page - Item Section Fields.al - Vendor
-- 50116 - Items Page - Item Section Fields.al - Option1 Name
-- 50117 - Items Page - Item Section Fields.al - Option1 Value
-- 50118 - Items Page - Item Section Fields.al - Option2 Name
-- 50119 - Items Page - Item Section Fields.al - Option2 Value
+- 50116 - Items Page - Item Section Fields.al - Material
+- 50117 - Items Page - Item Section Fields.al - Delivery date
+- 50118 - Items Page - Item Section Fields.al - Option3
+- 50119 - Items Page - Item Section Fields.al - Option1_2
 - 50120 - Items Page - Item Section Fields.al - Option3 Name
 - 50121 - Items Page - Item Section Fields.al - Option3 Value
 - 50122 - Items Page - Item Section Fields.al - Option 1 Name
