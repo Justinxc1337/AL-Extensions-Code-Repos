@@ -451,34 +451,6 @@ tableextension 50116 "Item Material Extension" extends Item
     }
 }
 
-pageextension 50117 "Item Delivery D Card Extension" extends "Item Card"
-{
-    layout
-    {
-        addfirst(item)
-        {
-            field("Delivery date"; Rec."Delivery date")
-            {
-                ApplicationArea = All;
-                Caption = 'Delivery date';
-                Editable = true;
-            }
-        }
-    }
-}
-
-tableextension 50117 "Item Delivery D Extension" extends Item
-{
-    fields
-    {
-        field(50117; "Delivery date"; Text[50])
-        {
-            Caption = 'Delivery date';
-            Editable = true;
-        }
-    }
-}
-
 pageextension 50118 "Item Option3 Card Extension" extends "Item Card"
 {
     layout
