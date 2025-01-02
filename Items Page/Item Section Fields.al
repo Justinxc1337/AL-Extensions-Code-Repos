@@ -48,7 +48,7 @@ tableextension 50102 "Item Width Extension" extends Item
     fields
     {
 
-        field(50102; "Width"; Integer)
+        field(50102; "Width"; Decimal)
         {
             Caption = 'Width (cm)';
             Editable = true;
@@ -443,7 +443,7 @@ tableextension 50116 "Item Material Extension" extends Item
 {
     fields
     {
-        field(50116; "Material"; Text[100])
+        field(50116; "Material"; Text[500])
         {
             Caption = 'Material';
             Editable = true;
@@ -935,7 +935,7 @@ tableextension 50139 "Item Body HTML Extension" extends Item
 {
     fields
     {
-        field(50139; "Body (HTML)"; Text[20])
+        field(50139; "Body (HTML)"; Text[2048])
         {
             Caption = 'Body (HTML)';
             Editable = true;
