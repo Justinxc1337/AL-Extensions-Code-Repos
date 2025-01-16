@@ -1,0 +1,40 @@
+{
+  "id": "c0cfd919-36b0-4874-9e99-ff712058c25c",
+  "name": "Items Page Label",
+  "publisher": "Justin Chardonnay SSIT",
+  "version": "1.0.0.1",
+  "brief": "Adds a label to the Items page",
+  "description": "Adds a label to the Items page",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "SSITlogo.png",
+  "dependencies": [
+        {
+            "id": "25d54f81-a722-4c59-96c0-20b5428b05a0",
+            "name": "Items Page Changes",
+            "publisher": "Justin Chardonnay SSIT",
+            "version": "1.3.5.8"
+        }
+    ],
+  "screenshots": [],
+  "platform": "25.0.0.0",
+  "application": "25.0.0.0",
+  
+  "idRanges": [
+    {
+      "from": 50199,
+      "to": 50249
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": false,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
