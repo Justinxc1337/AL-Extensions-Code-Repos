@@ -1,22 +1,13 @@
-﻿report 50199 "Custom Item Label"
+﻿reportextension 66250 "Custom GTIN Extension" extends "Item GTIN Label" // 6625
 {
-    Caption = 'Item Label';
     dataset
     {
-        dataitem(Item; Item)
+        // Extend the dataitem of the existing report
+        modify(Item; Item)
         {
-            DataItemTableView = SORTING("No.");
-            column(No; Item."No.") { }
-            column(Description; Item.Description) { }
+            // Add extra fields
             column(Color; Item.Color) { }
             column(Socket; Item.Socket) { }
-        }
-    }
-
-    requestpage
-    {
-        layout
-        {
         }
     }
 }

@@ -2,7 +2,7 @@
   "id": "c0cfd919-36b0-4874-9e99-ff712058c25c",
   "name": "Items Page Label",
   "publisher": "Justin Chardonnay SSIT",
-  "version": "1.0.0.1",
+  "version": "1.0.0.4",
   "brief": "Adds a label to the Items page",
   "description": "Adds a label to the Items page",
   "privacyStatement": "",
@@ -24,8 +24,8 @@
   
   "idRanges": [
     {
-      "from": 50199,
-      "to": 50249
+      "from": 66249,
+      "to": 66251
     }
   ],
   "resourceExposurePolicy": {
