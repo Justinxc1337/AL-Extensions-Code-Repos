@@ -195,6 +195,12 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Published Card Extension - Control Published - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3226554048 - Control 3728311222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Search description 2</source>
+          <target state="translated">Søgebeskrivelse 2</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item SearcDesc2 Card Extension - Control Search description 2 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3226554048 - Control 1060132377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Shopify Handle</source>
           <target state="translated">Shopify Handle</target>
@@ -395,7 +401,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 901006396 - Field 3828462839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Packaging depth (cm)</source>
-          <target state="needs-translation"/>
+          <target state="translated">Emballage dybde (cm)</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Pack D Extension - Field Packaging depth (cm) - Property Caption</note>
         </trans-unit>
@@ -440,6 +446,12 @@
           <target state="translated">Udgivet</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Published Extension - Field Published - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 901006396 - Field 3728311222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Search description 2</source>
+          <target state="translated">Søgebeskrivelse 2</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item SearcDesc2 Extension - Field Search description 2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 901006396 - Field 1060132377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Shopify Handle</source>

@@ -406,6 +406,17 @@ pageextension 50115 "Item Vendor Card Extension" extends "Item Card"
                 ApplicationArea = All;
                 Caption = 'Vendor';
                 Editable = true;
+                TableRelation = Vendor."No.";
+                trigger OnLookup(var Text: Text): Boolean
+                var
+                    VendorRec: Record Vendor;
+                begin
+                    if Page.RunModal(Page::"Vendor List", VendorRec) = Action::LookupOK then begin
+                        Rec."Vendor" := VendorRec."No.";
+                        exit(true);
+                    end;
+                    exit(false);
+                end;
             }
         }
     }
@@ -415,10 +426,11 @@ tableextension 50115 "Item Vendor Extension" extends Item
 {
     fields
     {
-        field(50115; "Vendor"; Text[50])
+        field(50115; "Vendor"; Code[20])
         {
             Caption = 'Vendor';
             Editable = true;
+            TableRelation = Vendor."No.";
         }
     }
 }
@@ -1078,6 +1090,34 @@ tableextension 50144 "Item Pack Wi Extension" extends Item
         field(50144; "Packaging width (cm)"; Decimal)
         {
             Caption = 'Packaging width (cm)';
+            Editable = true;
+        }
+    }
+}
+
+pageextension 50145 "Item SearcDesc2 Card Extension" extends "Item Card"
+{
+    layout
+    {
+        addfirst(item)
+        {
+            field("Search description 2"; Rec."Search description 2")
+            {
+                ApplicationArea = All;
+                Caption = 'Search description 2';
+                Editable = true;
+            }
+        }
+    }
+}
+
+tableextension 50145 "Item SearcDesc2 Extension" extends Item
+{
+    fields
+    {
+        field(50145; "Search description 2"; Text[500])
+        {
+            Caption = 'Search description 2';
             Editable = true;
         }
     }

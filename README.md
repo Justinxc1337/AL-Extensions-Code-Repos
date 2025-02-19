@@ -87,3 +87,4 @@ Syncronize the translations from main to other translations <br>
 - 50142 - Items Page - Item Section Fields.al - Packaging length (cm)
 - 50143 - Items Page - Item Section Fields.al - Packaging weight (kg)
 - 50144 - Items Page - Item Section Fields.al - Packaging width (cm)
+- 50145 - Items Page - Item Section Fields.al - Search description 2
