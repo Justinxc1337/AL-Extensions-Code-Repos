@@ -1,0 +1,32 @@
+{
+  "id": "93f3d7ce-1592-459a-808f-4378d3963434",
+  "name": "ShopifySync",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "brief": "Shopify Sync",
+  "description": "Syncronizes Shopify items to BC automatically - Adds and Updates",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "SSITlogo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 66662,
+      "to": 66663
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": false,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
