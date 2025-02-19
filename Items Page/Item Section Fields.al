@@ -406,17 +406,6 @@ pageextension 50115 "Item Vendor Card Extension" extends "Item Card"
                 ApplicationArea = All;
                 Caption = 'Vendor';
                 Editable = true;
-                TableRelation = Vendor."No.";
-                trigger OnLookup(var Text: Text): Boolean
-                var
-                    VendorRec: Record Vendor;
-                begin
-                    if Page.RunModal(Page::"Vendor List", VendorRec) = Action::LookupOK then begin
-                        Rec."Vendor" := VendorRec."No.";
-                        exit(true);
-                    end;
-                    exit(false);
-                end;
             }
         }
     }
@@ -426,11 +415,10 @@ tableextension 50115 "Item Vendor Extension" extends Item
 {
     fields
     {
-        field(50115; "Vendor"; Code[20])
+        field(50115; "Vendor"; Text[100])
         {
             Caption = 'Vendor';
             Editable = true;
-            TableRelation = Vendor."No.";
         }
     }
 }

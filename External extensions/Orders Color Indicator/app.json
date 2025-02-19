@@ -1,0 +1,30 @@
+{
+  "id": "527d2be8-67cc-480c-ab69-bf89661bbbbb",
+  "name": "Orders_Color_Indicator",
+  "publisher": "CIS",
+  "version": "1.0.0.1",
+  "runtime": "13.1",
+  "target": "Cloud",
+  "application": "24.0.0.0",
+  "platform": "25.2.29913.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
+  },
+  "features": [
+    "NOIMPLICITWITH"
+  ],
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "build": {
+    "by": "AL Language Extension,14.1.1180850",
+    "timestamp": "2024-12-10T13:03:19.9736894+00:00",
+    "compilerVersion": "14.1.18.1238"
+  }
+}
